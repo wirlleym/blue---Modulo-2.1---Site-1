@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, Arial, serif;
+}
+
+header{
+    height: 100%;
+    width: 100%; 
+    position: relative;
+}
+
+#imagem-titulo { 
+    display: inline-block;
+    align-items: center;
+    position: relative;  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    width: 100%; 
+}
+
+#background {
+     background: #71cbdf;
+} 
+
+h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(63, 44, 168);
+    text-shadow: 0px 0px 2px black;
+}
+
+#container-texto-principal {
+    position: relative;
+    font-weight: bold;
+    margin: 0 3rem 0 3rem;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 0.7px black;
+    font-family: system-ui;
+    text-align: justify;
+    word-break: normal;   
+  }
+
+#container-titulo {
+    margin: 1rem;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: system-ui;
+}
+
+h2 {
+    margin-top: 2em;
+    color: blue;
+    text-shadow: 0px 0px 0.7px black;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: system-ui;
+} 
+
+div#container-altera {
+    padding-left: 3.1rem;
+    display: flex;
+    align-items: center;
+    padding: rem;
+    flex-wrap: wrap;
+    word-break: normal;
+  }
+ 
+  #container-imagem {
+      align-items: center;
+      margin-top: 0.2rem;
+      margin-left: 0.5rem;
+      width: 400px;  
+      height: 250px; 
+}
+
+#container-texto {
+    font-size: 1.3rem;
+    text-shadow: 0px 0px 0.7px black;
+    color: blue;
+    margin: 0.3rem 1rem 1rem 1rem;
+    width: 400px;
+    text-align: justify;   
+}
+
+#next {
+    display: flex;  
+    position: relative;
+    width: 5rem;
+    height: 17rem;
+    background-color: rgba(10, 92, 245, 0.993); /* Cor do Botão */
+    font-size: 20px;
+    color: rgb(250, 250, 250);   /* Cor Texto */
+    cursor: pointer; /* muda seta do cursor */
+    border-radius: 5px; /*Tamanho Borda*/
+}  
+
+#next:hover {
+    background-color: rgb(251, 255, 0); /* Altera cor do botão*/
+    color: blue; /* Altera cor da texto do botão*/
+    transform: scale(1.05);
+ } 
+
+#container-mapa {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+
+}
