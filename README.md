@@ -1,1 +1,1 @@
-# blue---Projeto-1---Modulo-2
+# PROJETO-1 (HTML-CSS-JS) - Modulo 2 - Blue
